@@ -1,0 +1,15 @@
+{
+  "name": "poke_util",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^22.10.0",
+    "request-promise-native": "^1.0.9"
+  }
+}

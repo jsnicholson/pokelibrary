@@ -1,0 +1,140 @@
+{
+    "pageProps": {
+        "key": "series-index.ts",
+        "serieses": [
+            {
+                "id": "scarlet-violet",
+                "name": "Scarlet & Violet",
+                "releaseDate": "2023-03-31T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/scarlet-violet.png?signature=680f019504890d54ddc707359f570e64725790fec481b795d6f9eea0ac53dc59",
+                "logo": "https://assets.pkmn.gg/images/series/logos/scarlet-violet.png?signature=00d2bcd07216c685459923c304209e725205a78f50dd984c040fa62ad5afc655",
+                "releaseDateString": "Mar 31, 2023"
+            },
+            {
+                "id": "sword-shield",
+                "name": "Sword & Shield",
+                "releaseDate": "2019-11-15T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/sword-shield.png?signature=ab305f74e62ec6feeb3e612253689b1eeb747090fc5859cdc156fcf47b4a79c2",
+                "logo": "https://assets.pkmn.gg/images/series/logos/sword-shield.png?signature=7bf3bb46733fa08282888b3db16ef318de56b5bab5e83b32f3ad985746176fd7",
+                "releaseDateString": "Nov 15, 2019"
+            },
+            {
+                "id": "sun-moon",
+                "name": "Sun & Moon",
+                "releaseDate": "2017-02-03T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/sun-moon.png?signature=3ce83250f74b46cfe0bc80deeb589c0f11767e83c950a68154b785eafe82cc75",
+                "logo": "https://assets.pkmn.gg/images/series/logos/sun-moon.png?signature=4de0d9c8dc00d850412a3bd9a252b31ea993c3b100322d81de14060a48c9de58",
+                "releaseDateString": "Feb 3, 2017"
+            },
+            {
+                "id": "xy",
+                "name": "XY",
+                "releaseDate": "2013-10-12T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/xy.png?signature=b223d97ee9ecb0d8bdc9dff7eb8ad0bb9de96f73bb5b88acd91914da0a7359c5",
+                "logo": "https://assets.pkmn.gg/images/series/logos/xy.png?signature=e07bb6f75d308c516cb7afeae7172557589dffa7d2d62ac32bf5caa0f6d978e0",
+                "releaseDateString": "Oct 12, 2013"
+            },
+            {
+                "id": "black-white",
+                "name": "Black & White",
+                "releaseDate": "2011-03-01T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/black-white.png?signature=8c5daabb6dd0ba8ed396b717135842925a761596888a08657a879184c8520315",
+                "logo": "https://assets.pkmn.gg/images/series/logos/black-white.png?signature=a14502e9f0ebb63fab43c7f1dd3d8def1c8a8cae2fcccee8d7e7aaebdf4f3ecc",
+                "releaseDateString": "Mar 1, 2011"
+            },
+            {
+                "id": "heartgold-soulsilver",
+                "name": "HeartGold & SoulSilver",
+                "releaseDate": "2010-02-10T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/heartgold-soulsilver.png?signature=75d509534f4e014d23f02e4113a5044d2fd1c933a269e6e9fddce1f69f71739d",
+                "logo": "https://assets.pkmn.gg/images/series/logos/heartgold-soulsilver.png?signature=fd5946c7cc93ea4ae83633540f22752c0045629175bd895c49ad26af5d217cbd",
+                "releaseDateString": "Feb 10, 2010"
+            },
+            {
+                "id": "platinum",
+                "name": "Platinum",
+                "releaseDate": "2009-02-11T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/platinum.png?signature=692d49d24c0b9a9d07564277c748782d05a1ae92cc19df628e7cf9cd999007b3",
+                "logo": "https://assets.pkmn.gg/images/series/logos/platinum.png?signature=d3fe1492aca8c54ccbcb893fd4c67185b21d439f5de67b78a7c2ad2230c88836",
+                "releaseDateString": "Feb 11, 2009"
+            },
+            {
+                "id": "diamond-pearl",
+                "name": "Diamond & Pearl",
+                "releaseDate": "2007-05-01T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/diamond-pearl.png?signature=cfa18006dda872f7328dadfd49acc38019d93158476e875e7a48567967a3997d",
+                "logo": "https://assets.pkmn.gg/images/series/logos/diamond-pearl.png?signature=e12dc42c6b02a97cd42bef8d52af9662d148116a6ccd24b28c72384dc251cf3b",
+                "releaseDateString": "May 1, 2007"
+            },
+            {
+                "id": "pop",
+                "name": "POP",
+                "releaseDate": "2004-09-01T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/pop.png?signature=55a2e2f12156d6c82c950ad773f2a4070f425daf017d6b67a25fa478d485ae33",
+                "logo": "https://assets.pkmn.gg/images/series/logos/pop.png?signature=4700a4e27f6e6efae0109dcf4e5ae10e96adc30d41d5d0bab61f8dea08da5d86",
+                "releaseDateString": "Sep 1, 2004"
+            },
+            {
+                "id": "np",
+                "name": "NP",
+                "releaseDate": "2003-10-01T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/np.png?signature=ccd3c7765c0055d89b8cf3778dff2ca2ddc8b07e9654a613b518de999c37d78b",
+                "logo": "https://assets.pkmn.gg/images/series/logos/np.png?signature=838029c2cf585998f0ee51fcea59e4ef57d869121f6a78bf904c9a62a06fe848",
+                "releaseDateString": "Oct 1, 2003"
+            },
+            {
+                "id": "ex",
+                "name": "EX",
+                "releaseDate": "2003-07-01T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/ex.png?signature=c21af4cdb32255f49f111def4b0d0f06ab7db9db50f362c50fcd9bd72c679e03",
+                "logo": "https://assets.pkmn.gg/images/series/logos/ex.png?signature=e8f402771d02e12884f8e7bfacff63a5dab1c065f121ca5ddc46c8ab90a79ba7",
+                "releaseDateString": "Jul 1, 2003"
+            },
+            {
+                "id": "e-card",
+                "name": "E-Card",
+                "releaseDate": "2002-09-15T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/e-card.png?signature=c170994498e4c16ba4729b6e85a4d03e11685aa021345ec1134a2c5aa3f29e82",
+                "logo": "https://assets.pkmn.gg/images/series/logos/e-card.png?signature=d485d42da1f8324982e5df232320c9492ee1132751530a73c45e76437281b31c",
+                "releaseDateString": "Sep 15, 2002"
+            },
+            {
+                "id": "neo",
+                "name": "Neo",
+                "releaseDate": "2000-12-16T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/neo.png?signature=bf528f831d7b5b7cee265d0acce0c65214a8b4b96b13e8af24a3794c4196705b",
+                "logo": "https://assets.pkmn.gg/images/series/logos/neo.png?signature=26e1ffc9d4dda469a32b656b0f887493f1010b8cf0cf309a2f991f0b36ec12e5",
+                "releaseDateString": "Dec 16, 2000"
+            },
+            {
+                "id": "gym",
+                "name": "Gym",
+                "releaseDate": "2000-08-14T04:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/gym.png?signature=aa0ccdcf622b48cb6ae2793f9e481d7435516fde05057e9f4514de4adf903f70",
+                "logo": "https://assets.pkmn.gg/images/series/logos/gym.png?signature=c9eb905e790e6f2fc83afefdbe3d5687ef18d044b82a3cd82da066df6adcb1ef",
+                "releaseDateString": "Aug 14, 2000"
+            },
+            {
+                "id": "base",
+                "name": "Base",
+                "releaseDate": "1999-01-09T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/base.png?signature=19cb14bf88b8fc8fe3cdfe47aecb40a6e70633508d0377b3aa60e751112986eb",
+                "logo": "https://assets.pkmn.gg/images/series/logos/base.png?signature=42ee5b512222eb009d6ae4bc62272afe42494124812f5080b0c90d1d1e87c9bd",
+                "releaseDateString": "Jan 9, 1999"
+            },
+            {
+                "id": "other",
+                "name": "Other",
+                "releaseDate": "0001-01-01T05:00:00Z",
+                "background": "https://assets.pkmn.gg/images/series/backgrounds/other.png?signature=fe53ef74b3e6593268db311c357964e5d67329c3013582cf40138ceada41acac",
+                "logo": "https://assets.pkmn.gg/images/series/logos/other.png?signature=98f1ba183db938e03854a25591565231fa1726b219b1cc52ba80956ce67760cb",
+                "releaseDateString": "Various"
+            }
+        ],
+        "metaTags": {
+            "og:title": "View All PokÃ©mon TCG Series and Sets | pkmn.gg",
+            "og:description": "From Scarlet and Violet to Base Set to Sword & Shield to Jungle, view and track every PokÃ©mon card and price. Track your collection and value with pkmn.gg"
+        }
+    },
+    "__N_SSG": true
+}

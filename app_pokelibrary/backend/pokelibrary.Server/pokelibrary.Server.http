@@ -1,0 +1,6 @@
+@pokelibrary.Server_HostAddress = http://localhost:5157
+
+GET {{pokelibrary.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
