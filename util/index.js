@@ -20,6 +20,7 @@ async function main() {
                 request_url,
                 request_headers
             });
+            console.log(request_url);
             if(request_url.includes("_next/data")) {
                 buildIdentifier = request_url;
             }
