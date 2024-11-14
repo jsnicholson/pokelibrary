@@ -3,15 +3,15 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace pokelibrary.ExternalData.PkmnGg.Converters {
-    public class VariantsConverter : JsonConverter<Card.Variant[]>
+    public class VariantsConverter : JsonConverter<Cards.Variant[]>
     {
-        public override Card.Variant[]? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+        public override Cards.Variant[]? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
             // Ensure we're at the start of the object
             if (reader.TokenType != JsonTokenType.StartObject)
                 throw new JsonException();
 
-            List<Card.Variant>? variants = null;
+            List<Cards.Variant>? variants = null;
 
             while (reader.Read())
             {
@@ -24,7 +24,7 @@ namespace pokelibrary.ExternalData.PkmnGg.Converters {
                 // Move to the value, which is the Variant object
                 reader.Read();
 
-                var variant = JsonSerializer.Deserialize<Card.Variant>(ref reader, options);
+                var variant = JsonSerializer.Deserialize<Cards.Variant>(ref reader, options);
 
                 variants?.Add(variant);
             }
@@ -32,7 +32,7 @@ namespace pokelibrary.ExternalData.PkmnGg.Converters {
             return variants.ToArray();
         }
 
-        public override void Write(Utf8JsonWriter writer, Card.Variant[] value, JsonSerializerOptions options)
+        public override void Write(Utf8JsonWriter writer, Cards.Variant[] value, JsonSerializerOptions options)
         {
             throw new NotImplementedException();
         }

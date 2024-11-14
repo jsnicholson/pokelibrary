@@ -1,5 +1,8 @@
-﻿namespace Data.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Data.Models
 {
+    [Table("Cards")]
     public class Card
     {
         public string id { get; set; }
@@ -14,7 +17,6 @@
         {
             public string name { get; set; }
             public string description { get; set; }
-            public bool inMainSet { get; set; }
         }
     }
 }

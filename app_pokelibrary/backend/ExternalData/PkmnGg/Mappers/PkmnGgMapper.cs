@@ -1,8 +1,8 @@
 ﻿using ExternalData.PkmnGg.Models;
 
 namespace ExternalData.PkmnGg.Mappers {
-    public class PkmnGgMapper : IExternalDataMapper<Series, Set, Card> {
-        public Data.Models.Card ToCard(Card card) {
+    public class PkmnGgMapper : IExternalDataMapper<Series, Set, Cards> {
+        public Data.Models.Card ToCard(Cards card) {
             Data.Models.Card.Variant[] variants = new Data.Models.Card.Variant[card.variantMap.Length];
             for (int i = 0; i < card.variantMap.Length; i++) {
                 

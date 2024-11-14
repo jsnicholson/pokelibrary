@@ -50,7 +50,7 @@
 
         public class PageProps {
             public string key { get; set; }
-            public List<Card> cardData { get; set; }
+            public List<Cards> cardData { get; set; }
             public SetData setData { get; set; }
             public HighestCard highestCard { get; set; }
             public string setMarketValue { get; set; }

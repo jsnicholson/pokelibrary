@@ -2,7 +2,7 @@
 using System.Text.Json.Serialization;
 
 namespace ExternalData.PkmnGg.Models {
-    public class Card {
+    public class Cards {
         public string id { get; set; }
         public string name { get; set; }
         public string number { get; set; }

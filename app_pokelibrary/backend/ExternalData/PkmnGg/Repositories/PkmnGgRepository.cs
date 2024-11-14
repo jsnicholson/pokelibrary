@@ -48,7 +48,7 @@ namespace ExternalData.PkmnGg.Repositories {
             // exception? just log it?
         }
 
-        public async Task<List<ExternalData.PkmnGg.Models.Series>> GetAllSeries() {
+        public async Task<List<Series>> GetAllSeries() {
             RestRequest request = new($"https://www.pkmn.gg/_next/data/{m_buildIdentifier}/series.json", Method.Get);
             RestResponse response = await m_restClient.ExecuteAsync(request);
 
@@ -63,7 +63,7 @@ namespace ExternalData.PkmnGg.Repositories {
             return seriesResponse.pageProps.serieses;
         }
 
-        public async Task<List<ExternalData.PkmnGg.Models.Set>?> GetAllSetsInSeries(string seriesId) {
+        public async Task<List<Set>?> GetAllSetsInSeries(string seriesId) {
             RestRequest request = new($"{m_buildIdentifier}/series/{seriesId}.json");
             RestResponse response = await m_restClient.ExecuteAsync(request);
 
@@ -78,7 +78,7 @@ namespace ExternalData.PkmnGg.Repositories {
             return seriesResponse.pageProps.sets;
         }
 
-        public async Task<List<ExternalData.PkmnGg.Models.Card>> GetAllCardsInSet(string seriesId, string setId) {
+        public async Task<List<Cards>> GetAllCardsInSet(string seriesId, string setId) {
             RestRequest request = new(string.Format(Constants.PKMNGG_CARDS, m_buildIdentifier, seriesId, setId));
             RestResponse response = await m_restClient.ExecuteAsync(request);
 
